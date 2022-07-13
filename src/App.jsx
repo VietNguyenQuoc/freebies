@@ -100,22 +100,150 @@ function App() {
           </p>
           <ul className="feature-list mt-4 space-y-6">
             <li className="flex gap-2">
-              <CheckIcon />
+              <CheckIcon circle />
               <span>Powerful online protection.</span>
             </li>
             <li className="flex gap-2">
-              <CheckIcon />
+              <CheckIcon circle />
               <span>Internet without borders.</span>
             </li>
             <li className="flex gap-2">
-              <CheckIcon />
+              <CheckIcon circle />
               <span>Supercharged VPN.</span>
             </li>
             <li className="flex gap-2">
-              <CheckIcon />
+              <CheckIcon circle />
               <span>No specific time limits.</span>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div className="choose-your-plan mt-20">
+        <h3 className="text-center font-medium text-4xl">Choose your plan</h3>
+        <p className="text-center text-slate-600 w-1/3 mx-auto mt-5">
+          Let's choose the package that is best for you and explore it happily
+          and cheerfully.
+        </p>
+        <div className="flex gap-12 text-center px-40 mt-16">
+          <div className="flex flex-col justify-between flex-1 p-10 pt-20 border-2 rounded-lg border-gray-300">
+            <div className="self-center">
+              <img
+                src="img/plan-free.png"
+                alt="plan free"
+                className="w-full mx-auto"
+              />
+              <p className="font-medium text-lg mt-8">Free plan</p>
+              <ul className="space-y-4 text-slate-500 mt-12 text-center">
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Unlimited Bandwitch</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>No Traffic Logs</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Works on All Devices</span>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-12">
+              <p className="font-medium text-2xl">Free</p>
+              <button className="border-2 border-primary rounded-full w-full text-primary font-bold py-3 mt-4">
+                Select
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-col justify-between flex-1 p-10 pt-20 border-2 rounded-lg border-gray-300">
+            <div className="self-center">
+              <img
+                src="img/plan-standard.png"
+                alt="plan standard"
+                className="w-full mx-auto"
+              />
+              <p className="font-medium text-lg mt-8">Standard plan</p>
+              <ul className="space-y-4 text-slate-500 mt-12">
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Unlimited Bandwitch</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>No Traffic Logs</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Works on All Devices</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Connect Anywere</span>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-12">
+              <p className="font-medium text-2xl">
+                $9 <span className="font-normal text-slate-500">/ mo</span>
+              </p>
+              <button className="border-2 border-primary rounded-full w-full text-primary font-bold py-3 mt-4">
+                Select
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-col justify-between flex-1 p-10 pt-20 border-2 rounded-lg border-primary">
+            <div className="self-center">
+              <img
+                src="img/plan-premium.png"
+                alt="plan premium"
+                className="w-full mx-auto"
+              />
+              <p className="font-medium text-lg mt-8">Premium plan</p>
+              <ul className="space-y-4 text-slate-500 mt-12">
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Unlimited Bandwitch</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>No Traffic Logs</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Works on All Devices</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Connect Anywere</span>
+                </li>
+                <li className="flex gap-3">
+                  <CheckIcon />
+                  <span>Get New Features</span>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-12">
+              <p className="font-medium text-2xl">
+                $12 <span className="font-normal text-slate-500">/ mo</span>
+              </p>
+              <button className="bg-primary rounded-full w-full text-white font-bold py-3 mt-4">
+                Select
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
