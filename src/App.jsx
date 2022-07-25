@@ -17,9 +17,8 @@ function App() {
             <span className="font-medium">LaslesVPN</span> discover interesting
             features from us.
           </p>
-          <button className="text-white font-bold text-sm bg-primary py-3 px-20 rounded-lg mt-12 relative z-10">
+          <button className="text-white font-bold text-sm bg-primary py-3 px-20 rounded-lg mt-12 shadow-2xl shadow-primary">
             Get Started
-            <div className="w-full absolute blur-xl h-full top-1/2 left-0 bg-primary z-9"></div>
           </button>
         </div>
         <div className="flex-1">
@@ -353,6 +352,20 @@ function App() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="subcribe flex justify-between w-5/6 mx-auto items-center bg-white px-20 py-14 mt-20">
+        <div>
+          <p className="font-medium text-4xl leading-[45px] w-2/3">
+            Subscribe Now for Get Special Features!
+          </p>
+          <p className="text-slate-500 mt-5">
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+        <button className="capitalize text-white font-bold bg-primary px-16 py-4 rounded-xl shadow-primary shadow-2xl">
+          Subscribe now
+        </button>
       </div>
     </div>
   );
