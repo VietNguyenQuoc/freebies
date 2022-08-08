@@ -272,84 +272,122 @@ function App() {
           These are the stories of our customers who have joined us with great
           pleasure when using this crazy feature.
         </p>
-        <div className="feedback-list text-left flex gap-12 w-5/6 mx-auto mt-16">
-          <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
-            <div className="card-header flex justify-between items-center">
-              <div className="user-info flex items-center">
-                <img src="img/ava-1.png" alt="" className="w-14 h-14" />
-                <div className="ml-5">
-                  <p className="font-medium text-lg">Viezh Robert</p>
-                  <p className="text-sm text-slate-500">Warsaw, Poland</p>
+        <div className="feedback-wrapper">
+          <div className="feedback-list text-left flex gap-12 w-5/6 mx-auto mt-16">
+            <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
+              <div className="card-header flex justify-between items-center">
+                <div className="user-info flex items-center">
+                  <img src="img/ava-1.png" alt="" className="w-14 h-14" />
+                  <div className="ml-5">
+                    <p className="font-medium text-lg">Viezh Robert</p>
+                    <p className="text-sm text-slate-500">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div>
+                  <span>4.5</span>
+                  <svg
+                    class="w-6 h-6 fill-[#FEA250] inline ml-2"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
                 </div>
               </div>
-              <div>
-                <span>4.5</span>
-                <svg
-                  class="w-6 h-6 fill-[#FEA250] inline ml-2"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                </svg>
-              </div>
+              <p className="mt-5 leading-8">
+                “Wow... I am very happy to use this VPN, it turned out to be
+                more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+              </p>
             </div>
-            <p className="mt-5 leading-8">
-              “Wow... I am very happy to use this VPN, it turned out to be more
-              than my expectations and so far there have been no problems.
-              LaslesVPN always the best”.
-            </p>
+            <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
+              <div className="card-header flex justify-between items-center">
+                <div className="user-info flex items-center">
+                  <img src="img/ava-1.png" alt="" className="w-14 h-14" />
+                  <div className="ml-5">
+                    <p className="font-medium text-lg">Viezh Robert</p>
+                    <p className="text-sm text-slate-500">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div>
+                  <span>4.5</span>
+                  <svg
+                    class="w-6 h-6 fill-[#FEA250] inline ml-2"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </div>
+              </div>
+              <p className="mt-5 leading-8">
+                “Wow... I am very happy to use this VPN, it turned out to be
+                more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+              </p>
+            </div>
+            <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
+              <div className="card-header flex justify-between items-center">
+                <div className="user-info flex items-center">
+                  <img src="img/ava-1.png" alt="" className="w-14 h-14" />
+                  <div className="ml-5">
+                    <p className="font-medium text-lg">Viezh Robert</p>
+                    <p className="text-sm text-slate-500">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div>
+                  <span>4.5</span>
+                  <svg
+                    class="w-6 h-6 fill-[#FEA250] inline ml-2"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </div>
+              </div>
+              <p className="mt-5 leading-8">
+                “Wow... I am very happy to use this VPN, it turned out to be
+                more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+              </p>
+            </div>
           </div>
-          <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
-            <div className="card-header flex justify-between items-center">
-              <div className="user-info flex items-center">
-                <img src="img/ava-1.png" alt="" className="w-14 h-14" />
-                <div className="ml-5">
-                  <p className="font-medium text-lg">Viezh Robert</p>
-                  <p className="text-sm text-slate-500">Warsaw, Poland</p>
-                </div>
-              </div>
-              <div>
-                <span>4.5</span>
+          <div className="feedback-footer flex justify-between items-center w-5/6 mx-auto mt-8">
+            <div className="feedback-bullets">
+              <span className="inline-block w-8 h-3 rounded-lg bg-primary"></span>
+              <span className="inline-block w-3 h-3 rounded-full ml-3 bg-gray-300"></span>
+              <span className="inline-block w-3 h-3 rounded-full ml-3 bg-gray-300"></span>
+              <span className="inline-block w-3 h-3 rounded-full ml-3 bg-gray-300"></span>
+            </div>
+            <div className="flex gap-4">
+              <button className="rounded-full bg-primary p-4">
                 <svg
-                  class="w-6 h-6 fill-[#FEA250] inline ml-2"
+                  class="w-6 h-6 fill-white"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                    clip-rule="evenodd"
+                  ></path>
                 </svg>
-              </div>
-            </div>
-            <p className="mt-5 leading-8">
-              “Wow... I am very happy to use this VPN, it turned out to be more
-              than my expectations and so far there have been no problems.
-              LaslesVPN always the best”.
-            </p>
-          </div>
-          <div className="card flex-1 w-1/4 p-8 border-2 border-primary rounded-xl">
-            <div className="card-header flex justify-between items-center">
-              <div className="user-info flex items-center">
-                <img src="img/ava-1.png" alt="" className="w-14 h-14" />
-                <div className="ml-5">
-                  <p className="font-medium text-lg">Viezh Robert</p>
-                  <p className="text-sm text-slate-500">Warsaw, Poland</p>
-                </div>
-              </div>
-              <div>
-                <span>4.5</span>
+              </button>
+              <button className="rounded-full bg-primary p-4">
                 <svg
-                  class="w-6 h-6 fill-[#FEA250] inline ml-2"
+                  class="w-6 h-6 fill-white"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
                 </svg>
-              </div>
+              </button>
             </div>
-            <p className="mt-5 leading-8">
-              “Wow... I am very happy to use this VPN, it turned out to be more
-              than my expectations and so far there have been no problems.
-              LaslesVPN always the best”.
-            </p>
           </div>
         </div>
       </div>
