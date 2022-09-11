@@ -405,6 +405,68 @@ function App() {
           Subscribe now
         </button>
       </div>
+
+      <footer className="grid grid-cols-6 w-5/6 mx-auto mt-20 pb-20">
+        <div className="col-span-3">
+          <div className="flex items-center gap-2">
+            <img className="w-6 h-6" src="img/logo.png" />
+            <p className="text-xl">
+              Lasles<span className="font-bold">VPN</span>
+            </p>
+          </div>
+          <p className="text-gray-600 leading-loose mt-6 w-1/2">
+            <span className="font-medium">LaslesVPN</span> is a private virtual
+            network that has unique features and has high security.
+          </p>
+          <div className="flex gap-5 mt-8">
+            <img
+              className="rounded-full shadow-lg fill-primary bg-primary"
+              src="img/fb.svg"
+              alt=""
+            />
+            <img
+              className="rounded-full shadow-lg fill-primary bg-primary"
+              src="img/tw.svg"
+              alt=""
+            />
+            <img
+              className="rounded-full shadow-lg fill-primary bg-primary"
+              src="img/ins.svg"
+              alt=""
+            />
+          </div>
+          <p className="text-gray-400 mt-8">©2020LaslesVPN</p>
+        </div>
+        <div className="col-span-1">
+          <h3 className="text-lg font-medium">Product</h3>
+          <ul className="flex flex-col gap-4 mt-8">
+            <li className="text-gray-600">Download</li>
+            <li className="text-gray-600">Pricing</li>
+            <li className="text-gray-600">Locations</li>
+            <li className="text-gray-600">Server</li>
+            <li className="text-gray-600">Countries</li>
+            <li className="text-gray-600">Blog</li>
+          </ul>
+        </div>
+        <div className="col-span-1">
+          <h3 className="text-lg font-medium">Engage</h3>
+          <ul className="flex flex-col gap-4 mt-8">
+            <li className="text-gray-600">LaslesVPN ? </li>
+            <li className="text-gray-600">FAQ</li>
+            <li className="text-gray-600">Tutorials</li>
+            <li className="text-gray-600">About us</li>
+            <li className="text-gray-600">Private Policy</li>
+            <li className="text-gray-600">Term of Service</li>
+          </ul>
+        </div>
+        <div className="col-span-1">
+          <h3 className="text-lg font-medium">Earn Money</h3>
+          <ul className="flex flex-col gap-4 mt-8">
+            <li className="text-gray-600">Affiliate</li>
+            <li className="text-gray-600">Become Partner</li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }
