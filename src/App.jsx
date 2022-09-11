@@ -1,3 +1,4 @@
+import React from 'react';
 import CheckIcon from "./components/CheckIcon";
 import { NavBar } from "./components/NavBar";
 
